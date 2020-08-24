@@ -24,3 +24,13 @@ If there are both -data and -in arguments, your program should prefer -data over
 If there is no -data, and there is no -in the program should assume that the data is an empty string.
 
 If there is no -out argument, the program must print data to the standard output.
+
+**Example:**
+
+*java Main -mode enc -in road_to_treasure.txt -out protected.txt -key 5 -alg unicode*
+
+This command must get data from the file road_to_treasure.txt, encrypt the data with the key 5, create a file called protected.txt and write ciphertext to it.
+
+*java Main -mode enc -key 5 -data "Welcome to hyperskill!" -alg unicode*
+
+\jqhtrj%yt%m~ujwxpnqq&
